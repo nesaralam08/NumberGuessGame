@@ -154,7 +154,7 @@ int PlayAgain(void)
     switch(choice)
     {
         case 1:
-            return menu();
+            return main();
         case 2:
             exit(0);
         default:
